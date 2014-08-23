@@ -13,7 +13,6 @@ class KansaiDialect
      */
     public static function translate($input)
     {
-        $input = preg_replace('/僕/', 'わて', $input);
         $input = preg_replace('/ですね/', 'やん', $input);
         $input = preg_replace('/です/', 'やねん', $input);
         $input = preg_replace('/とても/', 'めっちゃ', $input);
@@ -25,6 +24,8 @@ class KansaiDialect
         $input = preg_replace('/するんだ/', 'すんねん', $input);
         $input = preg_replace('/ばか/', 'あほ', $input);
         $input = preg_replace('/じゃないの/', 'ちゃうか', $input);
+        $input = preg_replace('/見ないで/', '見んと', $input);
+        $input = preg_replace('/だけど/', 'せやけど', $input);
         return $input;
     }
 }
