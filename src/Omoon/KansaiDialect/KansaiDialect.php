@@ -15,6 +15,7 @@ class KansaiDialect
         $input = preg_replace('/です/', 'やねん', $input);
         $input = preg_replace('/とても/', 'めっちゃ', $input);
         $input = preg_replace('/おもしろい/', 'おもろい', $input);
+        $input = preg_replace('/ものもらい/', 'めばちこ', $input);
         return $input;
     }
 }
