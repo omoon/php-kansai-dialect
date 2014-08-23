@@ -1,0 +1,22 @@
+{
+    "name": "omoon/php-kansai-dialect",
+    "description": "Translate your Japanese into Kansai dialect.",
+    "keywords": ["Japanese", "Kansai"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/omoon/php-kansai-dialect",
+    "authors": [
+        {
+            "name": "omoon",
+            "email": "omoon@lamolabo.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Omoon\\KansaiDialect": "src/"
+        }
+    }
+}
