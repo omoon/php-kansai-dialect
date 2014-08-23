@@ -9,7 +9,7 @@ class KansaiDialect
 {
     /**
      * @param string $input japanese phrase
-     * @return mixed
+     * @return string
      */
     public static function translate($input)
     {
