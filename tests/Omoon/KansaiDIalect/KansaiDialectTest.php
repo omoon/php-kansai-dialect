@@ -24,4 +24,19 @@ class KansaiDialectTest extends \PHPUnit_Framework_TestCase
     {
         $this->assertEquals('めばちこ', KansaiDialect::translate('ものもらい'));
     }
+
+    public function testちがいます()
+    {
+        $this->assertEquals('ちゃいます', KansaiDialect::translate('ちがいます'));
+    }
+
+    public function testしらないよ()
+    {
+        $this->assertEquals('しらんがな', KansaiDialect::translate('しらないよ'));
+    }
+
+    public function test夏だからバーベキューするんだ()
+    {
+        $this->assertEquals('夏やからバーベキューすんねん', KansaiDialect::translate('夏だからバーベキューするんだ'));
+    }
 }
