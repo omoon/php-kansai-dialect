@@ -7,7 +7,10 @@ namespace Omoon\KansaiDialect;
  */
 class KansaiDialect
 {
-
+    /**
+     * @param string $input japanese phrase
+     * @return mixed
+     */
     public static function translate($input)
     {
         $input = preg_replace('/僕/', 'わて', $input);
@@ -20,6 +23,8 @@ class KansaiDialect
         $input = preg_replace('/しらないよ/', 'しらんがな', $input);
         $input = preg_replace('/だから/', 'やから', $input);
         $input = preg_replace('/するんだ/', 'すんねん', $input);
+        $input = preg_replace('/ばか/', 'あほ', $input);
+        $input = preg_replace('/じゃないの/', 'ちゃうか', $input);
         return $input;
     }
 }
