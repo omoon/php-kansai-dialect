@@ -2,7 +2,7 @@
 
 # Kansai Dialect
 
-I transale your Japanese into Kansai Dialect.
+Translate your Japanese into Kansai Dialect.
 
 ## Example
 
