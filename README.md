@@ -10,6 +10,8 @@ Translate your Japanese into Kansai Dialect.
 ## Example
 
 ```php
+KansaiDialect::translate('いいね'); // ええやん
+KansaiDialect::translate('シェア'); // わけわけ
 KansaiDialect::translate('僕は男です。'); // 僕は男やねん。
 KansaiDialect::translate('とても面白いですね。'); // めっちゃおもろいやん。
 ```
