@@ -26,6 +26,9 @@ class KansaiDialect
         $input = preg_replace('/じゃないの/', 'ちゃうか', $input);
         $input = preg_replace('/見ないで/', '見んと', $input);
         $input = preg_replace('/だけど/', 'せやけど', $input);
+        $input = preg_replace('/いいね/', 'ええやん', $input);
+        $input = preg_replace('/コメントする/', 'つっこむ', $input);
+        $input = preg_replace('/シェア/', 'わけわけ', $input);
         return $input;
     }
 }
